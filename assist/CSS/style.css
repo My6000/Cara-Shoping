@@ -1,0 +1,411 @@
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    --bGreen: #088178;
+    --lGreen: #E3E6F3;
+    --lGray: #E3E6F3;
+    --dYellow: #F3B519 ;
+    --dBlue: #041E42;
+}
+
+
+
+
+
+/* navbar line */
+
+.navLine {
+    background-color: var(--lGray);
+}
+
+.navLine .active{
+    color: var(--bGreen) !important;
+}
+
+
+
+
+.navLinks .cartN{
+    position: absolute;
+    top: -5px;
+
+    background-color: var(--bGreen);
+    color: white;
+    padding: 0% 4px;
+    border-radius: 5px;
+}
+
+
+
+.navLinks a{
+    position: relative;
+    padding-left: 0px !important;
+}
+
+
+
+.navLinks .active::after{
+    content: " ";
+    position: absolute;
+    bottom: 2px;
+    left:0px;
+    background-color: var(--bGreen);
+    height: 3px;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+/* section Tow Header  */
+
+
+@media (max-width: 991px){
+    .HeaderBg {
+        height: 85vh;
+        background-color: var(--lGray);
+        /* background-position: left; */
+        /* background-size: cover; */
+    }   
+}
+
+
+@media (min-width: 992px){
+    .HeaderBg {
+        height: 100vh;
+        background-image: url(../Images/hero4.png);
+        background-position: center;
+        background-size: cover;  
+    }   
+}
+
+
+
+
+
+@media (max-width: 991px){
+    .HeaderBg .TradeIn {
+        height: 85vh;
+    }   
+}
+
+
+@media (min-width: 992px){
+    .HeaderBg .TradeIn {
+        height: 100vh;
+    }   
+}
+
+
+
+
+
+
+
+
+.HeaderBg .allProducts{
+    color: var(--bGreen);
+}
+
+
+
+.HeaderBg .shopNow{
+    background-image: url(../Images/button.png);
+    background-position: center;
+    background-size: cover;
+
+    width: 227px;
+    height: 50px;
+    color: var(--bGreen) ;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section Three Services */
+
+.Services .Service-1 button{
+    background-color: #FDDDE4 ;
+}
+
+
+
+.Services .Service-2 button{
+    background-color: #CDEBBC ;
+}
+
+
+
+.Services .Service-3 button{
+    background-color: #D1E8F2 ;
+}
+
+
+.Services .Service-4 button{
+    background-color: #CDD4F8 ;
+}
+
+
+.Services .Service-5 button{
+    background-color: #F6DBF6 ;
+}
+
+
+.Services .Service-6 button{
+    background-color: #FFF2E5 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section Four Featured Products */
+
+.fProducts .pCard, .oImg{
+    border-radius: 30px;
+}
+
+
+
+
+.fProducts .stars{
+    color: var(--dYellow);
+}
+
+
+
+.fProducts a {
+    color: var(--bGreen);
+    text-decoration: none;
+}
+
+
+.fProducts a i{
+    background-color: var(--lGreen);
+    width: 45px;
+    height: 45px;
+
+    border: 1px solid var(--lGreen);
+    border-radius: 50px;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+
+
+
+.fProducts .oImg:hover{
+    padding: 0% !important;
+    transition: 0.5s;
+}
+
+
+
+.fProducts .price:hover{
+    font-weight: bold;
+    transition: 1s;
+}
+
+
+.fProducts a i:hover{
+    font-size: 29px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+/* section Five Repair Services */
+
+.sectionFive{
+    background-image: url(../Images/b2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+}
+
+
+
+
+.sectionFive .repairS{
+    height: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+/* section sevin deals & summer */
+
+.section7 .crazyD{
+    height: 330px;
+    background-image: url(../Images/b17.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section7 .springD{
+    height: 330px;
+    background-image: url(../Images/b10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@media (min-width: 992px){
+.section7 .crazyD, .section7 .springD {
+    width: 49%;
+}}
+
+
+
+
+
+
+
+
+
+/* section sevin Seasonal  & Footwear Collection */
+
+.section7 .Seasonal{
+    height: 220px;
+    background-image: url(../Images/b7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.section7 .Footwear{
+    height: 220px;
+    background-image: url(../Images/b4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.section7 .T-Shirts{
+    height: 220px;
+    background-image: url(../Images/b18.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media (min-width: 992px){
+    .section7 .Seasonal, .section7 .Footwear, .section7 .T-Shirts {
+        width: 49%;
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* section Eight Newsletters */
+
+    .Newsletters{
+        background-color: var(--dBlue);
+    }
+
+
+    .Newsletters .news{
+        background-image: url(../Images/b14.png);
+        background-position:right;
+        background-size: cover;
+    }
+
+
+    .Newsletters p{
+        color: #7A93A0;
+    }
+
+
+    .Newsletters a{
+        color: var(--dYellow);
+    }
+
+
+    .Newsletters button{
+        background-color: var(--bGreen);
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* section last Footer */
+
+    .LastSec a{
+        text-decoration: none;
+    }
+
+
+    .LastSec .Contact, .followUs a{
+        color: var(--bGreen);
+    }
+
+
+    .LastSec .Contact h6{
+        font-size: 15px;
+    }
+
+    .LastSec .store img{
+        border: 2px solid var(--bGreen);
+        border-radius: 10px;
+    }
